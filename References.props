@@ -1,0 +1,6 @@
+﻿<Project>
+  <ItemGroup>
+    <PackageReference Include="Y.Results.Structs" Version="0.5.0"/>
+    <Using Include="Y.Results"/>
+  </ItemGroup>
+</Project>

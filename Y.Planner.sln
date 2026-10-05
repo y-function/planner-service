@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Y.Planner.Api", "Y.Planner\Y.Planner.Api\Y.Planner.Api.csproj", "{ECF9A191-5151-4B87-9383-ACB7CA9096CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Y.Planner.Service", "Y.Planner\Y.Planner.Service\Y.Planner.Service.csproj", "{E515F600-5E51-4832-8F31-F7F50526E7DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Y.Planner.Service.Persistent", "Y.Planner\Y.Planner.Service.Persistent\Y.Planner.Service.Persistent.csproj", "{ACF3F4E8-733C-4947-A995-7C462D01706F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{ECF9A191-5151-4B87-9383-ACB7CA9096CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECF9A191-5151-4B87-9383-ACB7CA9096CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECF9A191-5151-4B87-9383-ACB7CA9096CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E515F600-5E51-4832-8F31-F7F50526E7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E515F600-5E51-4832-8F31-F7F50526E7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E515F600-5E51-4832-8F31-F7F50526E7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E515F600-5E51-4832-8F31-F7F50526E7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF3F4E8-733C-4947-A995-7C462D01706F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF3F4E8-733C-4947-A995-7C462D01706F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF3F4E8-733C-4947-A995-7C462D01706F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF3F4E8-733C-4947-A995-7C462D01706F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
