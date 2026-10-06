@@ -19,6 +19,8 @@ env:
     ref_name: ${{ github.ref_name }}
 
 jobs:
-  execute_workflow:
+  dotnet:
     uses: y-function/workflows/.github/workflows/dotnet-sln.yml@main
+  container:
+    uses: y-function/workflows/.github/workflows/docker-push.yml@main
         
