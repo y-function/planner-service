@@ -22,5 +22,6 @@ jobs:
   dotnet:
     uses: y-function/workflows/.github/workflows/dotnet-sln.yml@main
   container:
+    needs: dotnet
     uses: y-function/workflows/.github/workflows/docker-push.yml@main
         
