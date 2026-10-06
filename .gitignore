@@ -39,6 +39,7 @@ nuget.config
 
 # dotenv environment variables file
 .env
+local.env
 
 # Others
 ~$*

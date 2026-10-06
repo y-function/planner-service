@@ -1,0 +1,24 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
+name: Build and Deploy Dotnet Packages
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  merge_group:
+    types: [checks_requested]
+    branches: [main]
+  release:
+    types: [published]
+  workflow_dispatch: 
+
+env:
+    ref_name: ${{ github.ref_name }}
+
+jobs:
+  execute_workflow:
+    uses: y-function/workflows/.github/workflows/dotnet-sln.yml@main
+        
