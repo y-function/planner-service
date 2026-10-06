@@ -35,9 +35,11 @@ ScaffoldingReadMe.txt
 *.nupkg
 # NuGet Symbol Packages
 *.snupkg
+nuget.config
 
 # dotenv environment variables file
 .env
+local.env
 
 # Others
 ~$*
@@ -55,3 +57,6 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+#Rider
+*.DotSettings.user
