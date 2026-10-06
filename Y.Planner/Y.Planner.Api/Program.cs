@@ -1,3 +1,4 @@
+using Microsoft.OpenApi;
 using Y.Planner.Service.Persistent;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,7 +16,10 @@ app.MapControllers();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
+    app.UseSwagger(o =>
+        {
+            o.OpenApiVersion = OpenApiSpecVersion.OpenApi3_1;
+        });
     app.UseSwaggerUI();
 }
 app.UseHttpsRedirection();
